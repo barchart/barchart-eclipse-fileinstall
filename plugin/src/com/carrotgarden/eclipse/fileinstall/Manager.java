@@ -39,7 +39,7 @@ import com.carrotgarden.eclipse.fileinstall.util.ResourceUtil;
 public class Manager {
 
 	/**
-	 * Mater projects: projects with plug-in nature.
+	 * Master projects: projects with plug-in nature.
 	 */
 	private final ConcurrentMap<String, Project.Master> //
 	masterMap = new ConcurrentHashMap<String, Project.Master>();
